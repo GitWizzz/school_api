@@ -5,14 +5,13 @@ Implementation Instructions
 
          git clone https://github.com/yourusername/school-management-api.git
 
-
-3. Set Up Node.js and Modules:
+2. Set Up Node.js and Modules:
    *Ensure Node.js is installed on your device.
    *Install the necessary modules by running
 
        npm install
 
-3. Set Up MongoDB:
+4. Set Up MongoDB:
 
    *Install MongoDB on your device if not already installed.
    
@@ -20,7 +19,7 @@ Implementation Instructions
   
        MONGO_URL=your_mongodb_connection_string
 
-4. Running the Application:
+5. Running the Application:
 Start the application by running:
 npm start
 The API will run on http://localhost:3000/.
