@@ -24,28 +24,21 @@ Implementation Instructions
 
    * The API will run on http://localhost:3000/. 
 
-4. Running the Application:
-  * Start the application by running:
-    
-         npm start
-The API will run on http://localhost:3000/.
+5. Testing the APIs with Postman:
+   * Add School API:
+   * Method: POST
+   * Endpoint: http://localhost:3000/api/addSchool
+   * Body (in JSON format):
+   
+         {
+          "name": "Oxford International School",
+          "address": "Palm Beach Road, Navi Mumbai",
+          "latitude": 19.0330,
+          "longitude": 73.0297
+          }
 
-Testing the APIs with Postman:
-
-Add School API:
-Method: POST
-Endpoint: http://localhost:3000/api/addSchool
-Body (in JSON format):
-{
-  "name": "Oxford International School",
-  "address": "Palm Beach Road, Navi Mumbai",
-  "latitude": 19.0330,
-  "longitude": 73.0297
-}
-
-List Schools API:
-
-Method: GET
-Endpoint: http://localhost:3000/api/listSchools?latitude=(x)&longitude=(y)
-Replace (x) and (y) with the latitude and longitude values, respectively.
-This will return a list of schools sorted by proximity to the specified coordinates.
+6. Set Up MongoDB:
+   * Method: GET
+   * Endpoint: http://localhost:3000/api/listSchools?latitude=(x)&longitude=(y)
+   * Replace (x) and (y) with the latitude and longitude values, respectively.
+   * This will return a list of schools sorted by proximity to the specified coordinates.
