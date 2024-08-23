@@ -10,12 +10,19 @@ Implementation Instructions
    * Install the necessary modules by running
    
          npm install
-
+     
 3. Set Up MongoDB:
-  * Install MongoDB on your device if not already installed.
-  * Paste your MongoDB URL into the .env file:
-  
+   * Install MongoDB on your device if not already installed.
+   * Paste your MongoDB URL into the .env file:
+   
          MONGO_URL=your_mongodb_connection_string
+
+4. Running the Application:
+   * Start the application by running:
+   
+         npm start
+
+   * The API will run on http://localhost:3000/. 
 
 4. Running the Application:
   * Start the application by running:
