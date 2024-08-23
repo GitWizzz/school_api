@@ -5,11 +5,16 @@ Implementation Instructions
 
          git clone https://github.com/yourusername/school-management-api.git
 
-2. Set Up Node.js and Modules:
-   *Ensure Node.js is installed on your device.
-   *Install the necessary modules by running
+1. Set Up Node.js and Modules:
+   * First, clone the repository to your local device:
 
-       npm install
+         git clone https://github.com/yourusername/school-management-api.git
+
+2. Set Up Node.js and Modules:
+   * Ensure Node.js is installed on your device.
+   * Install the necessary modules by running
+   
+         npm install
 
 4. Set Up MongoDB:
 
