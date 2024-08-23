@@ -1,17 +1,14 @@
 Implementation Instructions
 
 1. Clone the Repository:
+   * First, clone the repository to your local device:
 
-  * First, clone the repository to your local device:
-
-        git clone https://github.com/yourusername/school-management-api.git
+         git clone https://github.com/yourusername/school-management-api.git
 
 
-2. Set Up Node.js and Modules:
-
-  *Ensure Node.js is installed on your device.
-
-  *Install the necessary modules by running:
+3. Set Up Node.js and Modules:
+   *Ensure Node.js is installed on your device.
+   *Install the necessary modules by running
 
        npm install
 
